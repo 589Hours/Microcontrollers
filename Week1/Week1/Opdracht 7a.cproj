@@ -151,9 +151,32 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="main.c">
+    <Compile Include="Opdracht 2\main.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Opdracht 3\main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Opdracht 4\main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Opdracht 5\main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Opdracht 6\main.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Opdracht 7a\main.c">
+      <SubType>compile</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Opdracht 6" />
+    <Folder Include="Opdracht 5" />
+    <Folder Include="Opdracht 4" />
+    <Folder Include="Opdracht 3" />
+    <Folder Include="Opdracht 7a" />
+    <Folder Include="Opdracht 2" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />
 </Project>
